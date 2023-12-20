@@ -1,0 +1,42 @@
+Start
+
+   |
+   V
+
+Print "Recording Started…"
+
+   |
+   V
+
+Initiate Sound Recording
+
+   |
+   V
+
+Wait for Recording to Complete
+
+   |
+   V
+
+Write Audio Data to WAV File
+
+   |
+   V
+
+Print "Recording Finished"
+
+   |
+   V
+
+End
+
+
+
+
+In this flowchart:
+
+-"Recording Started…" is printed to the console.
+-The script initiates the sound recording using the sounddevice library.
+-It waits for the recording to complete.
+-The recorded audio data is written to a WAV file using the scipy.io.wavfile module.
+-"Recording Finished" is printed to the console.
