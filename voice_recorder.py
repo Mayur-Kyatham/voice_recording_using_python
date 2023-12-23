@@ -1,3 +1,4 @@
+# Voice recorder using python
 import sounddevice
 from scipy.io.wavfile import write
 
